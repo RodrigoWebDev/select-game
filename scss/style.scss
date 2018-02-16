@@ -43,16 +43,6 @@ body{
         text-decoration:none;
         background:$cor-links2;
     }
-    a.link-cover{
-        height:100%;
-        width:100%;
-        display:flex;
-        align-items:center;
-        justify-content: center;
-    }
-    a.link-cover:hover{
-        text-decoration:none;
-    }
 }
 
 .col-md-6:hover{
