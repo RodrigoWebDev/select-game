@@ -1,0 +1,72 @@
+//VARIAVEIS
+$cor-texto : white;
+$cor-links : #e84118;
+$cor-links2 : #ec7153;
+
+*{
+    margin:0 !important;
+    padding:0 !important;
+    box-sizing: border-box;
+}
+
+img{
+    width:100%;
+    height:100vh;
+}
+
+body{
+    height:100vh;
+    font-family:"Stencil";
+}
+
+.col-md-6{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    cursor:pointer;
+    transition:0.2s;
+    p{
+        font-size:3rem;;
+        color:$cor-texto;
+        text-transform: uppercase;
+    }
+    a.button{
+        color:$cor-texto;
+        background:$cor-links;
+        padding:10px !important;
+        transition: .2s;
+        display:none;
+    }
+    a.button:hover{
+        text-decoration:none;
+        background:$cor-links2;
+    }
+    a.link-cover{
+        height:100%;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+    a.link-cover:hover{
+        text-decoration:none;
+    }
+}
+
+.col-md-6:hover{
+    border:17px solid red;
+    
+}
+
+.col-md-6:nth-child(1){
+    background:url(../img/dark-souls-3.jpg);
+    background-size:cover;
+}
+
+.col-md-6:nth-child(2){
+    background:url(../img/dragon-age-inquistion.jpg);
+    background-size:cover;
+}
+
